@@ -473,7 +473,6 @@ namespace se {
     {
         cleanup();
         v8::V8::Dispose();
-        v8::V8::ShutdownPlatform();
         delete _platform;
     }
 
